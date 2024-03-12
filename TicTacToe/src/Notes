@@ -1,0 +1,28 @@
+First we created GameController class and added all the necessary methods, we will use as part of playing the game
+
+Checking a winner, making a move, Replay the game, Undo things, Create/Start a game
+Also, what all classes we used in GameController, added them in the model package like
+Board, Game, GameStatus, Move,
+
+Will start with Game class, as its the heavy class and it will follow the builder design pattern
+After this we will focus on creating the Board class, as we need to have a board, for playing the game
+So, need to initialize and create an empty board
+
+Player has one imp task, which is to make an entry on the board
+
+
+Flow (Day 1)
+Build game class with builder design pattern. To build the game we need the board class, So, build the board
+Board has two things, once is initialization of the board and display board and for building the board, we need
+the cell class. In cell the cell constructor and the display cell and everything is a support class.
+
+Day 2:
+We build WinningStrategy of OrderWinningStrategy and Bot playing strategy with Random Bot playing strategy
+We added implementation calls in controller
+We created a TicTacToe main class, where we are taking inputs and calling methods to build games.
+
+Day3:
+We modified a little bit code, completed TODOs, Added all validations check
+Created two bot playing strategy Normal and Random
+Updated TicTacToe and added a replay logic in TicTacToe class.
+
